@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="425.0" prefWidth="839.0" style="-fx-background-color: lavender;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jewelryworkshop.RepairController">
+   <children>
+      <Label layoutX="127.0" layoutY="14.0" text="Оставте заявку на ремонт">
+         <font>
+            <Font name="Arial" size="48.0" />
+         </font>
+      </Label>
+      <TextField fx:id="surname" layoutX="288.0" layoutY="104.0" prefHeight="48.0" prefWidth="264.0" promptText="Введите фамилию" style="-fx-border-color: mediumpurple;" />
+      <TextField fx:id="name" layoutX="288.0" layoutY="177.0" prefHeight="48.0" prefWidth="264.0" promptText="Введите имя" style="-fx-border-color: mediumpurple;" />
+      <Button layoutX="9.0" layoutY="116.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="224.0" text="Button">
+         <effect>
+            <Shadow height="179.28" radius="89.8725" width="182.21">
+               <color>
+                  <Color red="0.937423825263977" green="0.7172880172729492" blue="0.9868420958518982" />
+               </color>
+            </Shadow>
+         </effect>
+      </Button>
+      <Label layoutX="38.0" layoutY="123.0" text="Цена ремонта изделия&#10;1000 рублей&#10;" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="enter" layoutX="318.0" layoutY="334.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="204.0" style="-fx-border-color: mediumpurple;" text="Оставить заявку">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="637.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Daria/OneDrive/Рабочий%20стол/УЧЁБА/проект%20по%20ПЧМИ/JewelryWorkshop/src/image/rem.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="type" layoutX="288.0" layoutY="253.0" prefHeight="48.0" prefWidth="264.0" promptText="Выберите вид украшения" style="-fx-border-color: mediumpurple;" />
+   </children>
+</AnchorPane>

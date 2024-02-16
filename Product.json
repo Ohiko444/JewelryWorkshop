@@ -1,0 +1,62 @@
+[
+  {
+    "productCount": 6,
+    "productId": 1,
+    "productName": "Кольцо",
+    "productSum": 1000.0
+  },
+  {
+    "productCount": 4,
+    "productId": 2,
+    "productName": "Кольцо",
+    "productSum": 1700.0
+  },
+  {
+    "productCount": 2,
+    "productId": 3,
+    "productName": "Серьги",
+    "productSum": 1800.0
+  },
+  {
+    "productCount": 7,
+    "productId": 4,
+    "productName": "Серьги",
+    "productSum": 4000.0
+  },
+  {
+    "productCount": 2,
+    "productId": 5,
+    "productName": "Подвеска",
+    "productSum": 8000.0
+  },
+  {
+    "productCount": 1,
+    "productId": 6,
+    "productName": "Браслет",
+    "productSum": 14000.0
+  },
+  {
+    "productCount": 5,
+    "productId": 7,
+    "productName": "Браслет",
+    "productSum": 67000.0
+  },
+  {
+    "productCount": 1,
+    "productId": 8,
+    "productName": "Подвеска",
+    "productSum": 316000.0
+  },
+  {
+    "productCount": 15,
+    "productId": 9,
+    "productName": "Цепочка",
+    "productSum": 1500.0
+  },
+  {
+    "productCount": 4,
+    "productId": 10,
+    "productName": "Цепочка",
+    "productSum": 2500.0
+  }
+]

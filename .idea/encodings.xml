@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Product.json" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Users.json" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/orderProduct.json" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/orderProductCopy.json" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/orders.json" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/ordersCopy.json" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

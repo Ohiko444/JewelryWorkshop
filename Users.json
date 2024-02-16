@@ -1,0 +1,37 @@
+[
+  {
+    "login": "89159136457",
+    "name": "Дарья",
+    "password": "7202",
+    "surname": "Пузырёва",
+    "type": "admin"
+  },
+  {
+    "login": "89600471851",
+    "name": "Камиль",
+    "password": "1991",
+    "surname": "Гибадуллин",
+    "type": "user"
+  },
+  {
+    "login": "89164587987",
+    "name": "Екатерина",
+    "password": "0000",
+    "surname": "Иванова",
+    "type": "user"
+  },
+  {
+    "login": "89154563212",
+    "name": "Диана",
+    "password": "1111",
+    "surname": "Додонова",
+    "type": "user"
+  },
+  {
+    "login": "891591645878",
+    "name": "Раиль",
+    "password": "4444",
+    "surname": "Сахабеев",
+    "type": "user"
+  }
+]

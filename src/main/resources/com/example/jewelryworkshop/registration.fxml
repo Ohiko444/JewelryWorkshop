@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="425.0" prefWidth="838.0" spacing="20.0" style="-fx-background-color: lavender;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jewelryworkshop.RegistrationController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <AnchorPane prefHeight="419.0" prefWidth="827.0" style="-fx-background-color: lavender;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="RIGHT" layoutX="236.0" layoutY="14.0" text="Регистрация">
+               <font>
+                  <Font name="Arial" size="48.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Surname" layoutX="87.0" layoutY="99.0" prefHeight="40.0" prefWidth="283.0" promptText="Введите фамилию" style="-fx-border-color: mediumpurple;" />
+            <TextField fx:id="Name" layoutX="434.0" layoutY="99.0" prefHeight="40.0" prefWidth="283.0" promptText="Введите имя" style="-fx-border-color: mediumpurple;" />
+            <PasswordField fx:id="password_id" layoutX="434.0" layoutY="159.0" prefHeight="40.0" prefWidth="283.0" promptText="Введите пароль" style="-fx-border-color: mediumpurple;" />
+            <TextField fx:id="login_id" layoutX="87.0" layoutY="159.0" prefHeight="40.0" prefWidth="283.0" promptText="Введите логин" style="-fx-border-color: mediumpurple;" />
+            <Button fx:id="regist" layoutX="300.0" layoutY="235.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="204.0" style="-fx-border-color: mediumpurple;" text="Зарегистрироваться">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="cancel" cache="true" layoutX="746.0" layoutY="139.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="57.0" style="-fx-border-color: mediumpurple;" text="clear">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="enter" layoutX="300.0" layoutY="299.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="204.0" style="-fx-border-color: mediumpurple;" text="Перейти на вход">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="40.0" fitWidth="39.0" layoutX="529.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Daria/OneDrive/Рабочий%20стол/УЧЁБА/проект%20по%20ПЧМИ/JewelryWorkshop/src/image/registr.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="159.0" layoutX="50.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Daria/OneDrive/Рабочий%20стол/УЧЁБА/проект%20по%20ПЧМИ/JewelryWorkshop/src/image/registr2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
